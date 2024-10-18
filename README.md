@@ -3,7 +3,7 @@ Hosted link: [https://rule-based-ast.vercel.app/](https://rule-based-ast.vercel.
 
 ## Overview
 
-Real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system utilizes data from the OpenWeatherMap API
+Real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system utilizes data from the OpenWeatherMap API. Built using Next.js, this project focuses on using the API appropriately to display the required information
 
 ![Screenshot (39)](https://github.com/user-attachments/assets/fb2562dc-0486-4fb1-9af9-98369bf1f22b)
 

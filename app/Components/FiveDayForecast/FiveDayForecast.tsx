@@ -55,7 +55,7 @@ function FiveDayForecast() {
     >
       <div>
         <h2 className="flex items-center gap-2 font-medium">
-          {calender} 5-Day Forecast for {city.name}
+          {calender} 5-Day Forecast
         </h2>
 
         <div className="forecast-list pt-3">

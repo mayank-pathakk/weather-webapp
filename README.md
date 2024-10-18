@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rule Engine Application
+Hosted link: [https://rule-based-ast.vercel.app/](https://rule-based-ast.vercel.app/)
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system utilizes data from the OpenWeatherMap API
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Screenshot (39)](https://github.com/user-attachments/assets/fb2562dc-0486-4fb1-9af9-98369bf1f22b)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Screenshot (40)](https://github.com/user-attachments/assets/3c0531c4-329d-468f-aeeb-01baadced7ff)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The system will continuously retrieve weather data from the OpenWeatherMap API. The API provides various weather parameters, and for this assignment, we will focus on:
 
-## Learn More
+● main: Main weather condition (e.g., Rain, Snow, Clear)
+● temp: Current temperature in Centigrade
+● feels_like: Perceived temperature in Centigrade
+● dt: Time of the data update (Unix timestamp)
 
-To learn more about Next.js, take a look at the following resources:
+The system continuously calls the OpenWeatherMap API at a configurable interval(e.g., every 5 minutes) to retrieve real-time weather data for the metros in India. (Delhi,
+Mumbai, Chennai, Bangalore, Kolkata, Hyderabad)
+● For each received weather update:
+  ○ Temperature values is converted from Kelvin to Celsius
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Provide Daily Summaries
+### Provides visualisation of the data
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Main Foucs
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+● Functionality and correctness of the real-time data processing system.
+● Accuracy of data parsing, temperature conversion, and rollup/aggregate calculations.
+● Efficiency of data retrieval and processing within acceptable intervals.
+● Clarity and maintainability of the codebase.

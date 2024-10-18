@@ -41,4 +41,38 @@ Mumbai, Chennai, Bangalore, Kolkata, Hyderabad)
 
 ● Clarity and maintainability of the codebase.
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+- OpenWeather API Key
+
+### Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/mayank-pathakk/weather-webapp
+   cd weather-webapp
+   ```
+
+2. **Install Backend Dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Create and initialize .env file**
+    Add the following fields in the .env file
+   ```bash
+   OPENWEATHERMAP_API_KEY={Your API Key}
+   ```
+
+4. **Start the Project**
+
+   ```bash
+   npm run dev
+   ```
+
+
 Created By: Mayank Pathak

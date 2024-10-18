@@ -14,13 +14,18 @@ Real-time data processing system to monitor weather conditions and provide summa
 The system will continuously retrieve weather data from the OpenWeatherMap API. The API provides various weather parameters, and for this assignment, we will focus on:
 
 ● main: Main weather condition (e.g., Rain, Snow, Clear)
+
 ● temp: Current temperature in Centigrade
+
 ● feels_like: Perceived temperature in Centigrade
+
 ● dt: Time of the data update (Unix timestamp)
 
 The system continuously calls the OpenWeatherMap API at a configurable interval(e.g., every 5 minutes) to retrieve real-time weather data for the metros in India. (Delhi,
 Mumbai, Chennai, Bangalore, Kolkata, Hyderabad)
+
 ● For each received weather update:
+
   ○ Temperature values is converted from Kelvin to Celsius
 
 ### Provide Daily Summaries
@@ -29,6 +34,11 @@ Mumbai, Chennai, Bangalore, Kolkata, Hyderabad)
 ## Main Foucs
 
 ● Functionality and correctness of the real-time data processing system.
+
 ● Accuracy of data parsing, temperature conversion, and rollup/aggregate calculations.
+
 ● Efficiency of data retrieval and processing within acceptable intervals.
+
 ● Clarity and maintainability of the codebase.
+
+Created By: Mayank Pathak

@@ -1,6 +1,6 @@
 # Weather Web App
-Hosted link: [https://rule-based-ast.vercel.app/](https://rule-based-ast.vercel.app/)
-
+Hosted link: 
+https://weather-webapp-pi.vercel.app/
 ## Overview
 
 Real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system utilizes data from the OpenWeatherMap API. Built using Next.js, this project focuses on using the API appropriately to display the required information

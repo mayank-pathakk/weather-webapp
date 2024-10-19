@@ -1,4 +1,4 @@
-# Rule Engine Application
+# Weather Web App
 Hosted link: [https://rule-based-ast.vercel.app/](https://rule-based-ast.vercel.app/)
 
 ## Overview
